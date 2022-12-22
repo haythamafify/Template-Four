@@ -1,0 +1,662 @@
+/* Start box */
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.align-centre {
+  align-items: center;
+}
+
+/* Start grid */
+.d-grid {
+  display: grid;
+}
+.d-block {
+  display: block;
+}
+.gap-20 {
+  gap: 20px;
+}
+/* End grid */
+
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+.border-none {
+  border: none;
+}
+/* End box */
+
+/* Start Padding +margin */
+.p-0 {
+  padding: 0;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mgt-0 {
+  margin-top: 0;
+}
+.mg-0 {
+  margin: 0;
+}
+.mg-20 {
+  margin: 20px;
+}
+.mgt-5 {
+  margin-top: 5px;
+}
+.mgt-10 {
+  margin-top: 10px;
+}
+
+.mgt-15 {
+  margin-top: 15px;
+}
+.mgt-20 {
+  margin-top: 20px;
+}
+.mgt-60 {
+  margin-top: 60px;
+}
+.mgb-0 {
+  margin-bottom: 0;
+}
+.mgb-10 {
+  margin-bottom: 10px;
+}
+.mgb-5 {
+  margin-bottom: 5px;
+}
+.mgb-15 {
+  margin-bottom: 15px;
+}
+.mgr-10 {
+  margin-right: 10px;
+}
+.mgr-5 {
+  margin-right: 5px;
+}
+.mgb-20 {
+  margin-bottom: 20px;
+}
+.mgb-25 {
+  margin-bottom: 25px;
+}
+.mgl-10 {
+  margin-left: 10px;
+}
+.mgl-15 {
+  margin-left: 15px;
+}
+.mgr-15 {
+  margin-right: 15px;
+}
+/* End Padding +margin */
+/* Start Color */
+.bg-white {
+  background-color: white;
+}
+.c-blue {
+  color: hsl(212deg 100% 50%);
+}
+
+.c-green {
+  color: hsl(142deg 71% 45%);
+}
+.c-red {
+  color: red;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-blue {
+  background-color: hsl(212deg 100% 50%);
+}
+
+.bg-orange {
+  background-color: #f59e0b;
+}
+
+.c-orange {
+  color: #f59e0b;
+}
+.bg-green {
+  background-color: #22c55e;
+}
+.c-black {
+  color: black;
+}
+.c-white {
+  color: white;
+}
+.c-grey {
+  color: var(--grey-color);
+}
+/* End Color */
+/* start position */
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+
+/* end position */
+/* Start font */
+.txt-c {
+  text-align: center;
+}
+.txt-r {
+  text-align: right;
+}
+.txt-l {
+  text-align: left;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw-normal {
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+/* end font */
+/* Start border */
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-50 {
+  border-radius: 50%;
+}
+/* End border */
+
+/* Start component */
+.between-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.centre-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-shape {
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+/* end component */
+.w-full {
+  width: 100%;
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.h-40 {
+  height: 40px;
+}
+.h-full {
+  height: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.w-100 {
+  width: 100px;
+}
+.h-100 {
+  height: 100px;
+}
+.textarea-height {
+  height: 250px;
+}
+.textarea-norsize {
+  resize: none;
+}
+.textarea-border {
+  border: 1px solid #ccc;
+}
+.txt-capitalize {
+  text-transform: capitalize;
+}
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.border-bottom-ccc {
+  border-bottom: 1px solid #ccc;
+}
+.border-top-ccc {
+  border-top: 1px solid #ccc;
+}
+.border-bottom-eee {
+  border-bottom: 2px solid #eee;
+}
+.p-line-height {
+  line-height: 1.7;
+}
+.min-height-140 {
+  height: 140px;
+}
+/* Start social */
+.c-twitter {
+  color: #1da1f2;
+}
+.bg-twitter {
+  background-color: #1da1f2;
+}
+
+.c-facebook {
+  color: #0078d7;
+}
+.bg-facebook {
+  background-color: #0078d7;
+}
+
+.c-youtube {
+  color: #ff0000;
+}
+.bg-youtube {
+  background-color: #ff0000;
+}
+
+.c-LinkedIn {
+  color: #00a0dc;
+}
+.bg-LinkedIn {
+  background-color: #00a0dc;
+}
+
+/* end social */
+/* Start box */
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.align-centre {
+  align-items: center;
+}
+
+/* Start grid */
+.d-grid {
+  display: grid;
+}
+.d-block {
+  display: block;
+}
+.gap-20 {
+  gap: 20px;
+}
+/* End grid */
+
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+.border-none {
+  border: none;
+}
+/* End box */
+
+/* Start Padding +margin */
+.p-0 {
+  padding: 0;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mgt-0 {
+  margin-top: 0;
+}
+.mg-0 {
+  margin: 0;
+}
+.mg-20 {
+  margin: 20px;
+}
+.mgt-5 {
+  margin-top: 5px;
+}
+.mgt-10 {
+  margin-top: 10px;
+}
+
+.mgt-15 {
+  margin-top: 15px;
+}
+.mgt-20 {
+  margin-top: 20px;
+}
+.mgt-60 {
+  margin-top: 60px;
+}
+.mgb-0 {
+  margin-bottom: 0;
+}
+.mgb-10 {
+  margin-bottom: 10px;
+}
+.mgb-5 {
+  margin-bottom: 5px;
+}
+.mgb-15 {
+  margin-bottom: 15px;
+}
+.mgr-10 {
+  margin-right: 10px;
+}
+.mgr-5 {
+  margin-right: 5px;
+}
+.mgb-20 {
+  margin-bottom: 20px;
+}
+.mgb-25 {
+  margin-bottom: 25px;
+}
+.mgl-10 {
+  margin-left: 10px;
+}
+.mgl-15 {
+  margin-left: 15px;
+}
+.mgr-15 {
+  margin-right: 15px;
+}
+/* End Padding +margin */
+/* Start Color */
+.bg-white {
+  background-color: white;
+}
+.c-blue {
+  color: hsl(212deg 100% 50%);
+}
+
+.c-green {
+  color: hsl(142deg 71% 45%);
+}
+.c-red {
+  color: red;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-blue {
+  background-color: hsl(212deg 100% 50%);
+}
+
+.bg-orange {
+  background-color: #f59e0b;
+}
+
+.c-orange {
+  color: #f59e0b;
+}
+.bg-green {
+  background-color: #22c55e;
+}
+.c-black {
+  color: black;
+}
+.c-white {
+  color: white;
+}
+.c-grey {
+  color: var(--grey-color);
+}
+/* End Color */
+/* start position */
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+
+/* end position */
+/* Start font */
+.txt-c {
+  text-align: center;
+}
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw-normal {
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+/* end font */
+/* Start border */
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-50 {
+  border-radius: 50%;
+}
+/* End border */
+
+/* Start component */
+.between-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.centre-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-shape {
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+/* end component */
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.textarea-height {
+  height: 250px;
+}
+.textarea-norsize {
+  resize: none;
+}
+.textarea-border {
+  border: 1px solid #ccc;
+}
+.txt-capitalize {
+  text-transform: capitalize;
+}
+.border-ccc {
+  border: 1px solid #ccc;
+}
+.border-white {
+  border: 3px solid white;
+}
+.outline-green {
+  outline: 3px solid #22c55e;
+}
+
+.outline-orange {
+  outline: 3px solid #f59e0b;
+}
+.outline-blue {
+  outline: 3px solid #0077ff;
+}
+.h-100 {
+  height: 100px;
+}
+
+.border-bottom-ccc {
+  border-bottom: 1px solid #ccc;
+}
+.border-bottom-eee {
+  border-bottom: 1px solid #eee;
+}
+.p-line-height {
+  line-height: 1.7;
+}
+.min-height-140 {
+  height: 140px;
+}
+/* Start social */
+.c-twitter {
+  color: #1da1f2;
+}
+.bg-twitter {
+  background-color: #1da1f2;
+}
+
+.c-facebook {
+  color: #0078d7;
+}
+.bg-facebook {
+  background-color: #0078d7;
+}
+
+.c-youtube {
+  color: #ff0000;
+}
+.bg-youtube {
+  background-color: #ff0000;
+}
+
+.c-LinkedIn {
+  color: #00a0dc;
+}
+.bg-LinkedIn {
+  background-color: #00a0dc;
+}
+
+/* end social */
